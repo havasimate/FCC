@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" >
+    <title>Survey</title>
+</head>
+<body>
+    <h1 id="title">Survey</h1>
+    <p id="description">This is my first HTML project on FCC.</p>
+    <form action="" id="survey-form">
+        <fieldset>
+            <label id="name-label">Name:<input id="name" type="text" placeholder="Type your name here..." required></label>
+            <label id="email-label">Email: <input type="email" id="email" placeholder="Type your email here..." inputmode="email" required></label>
+            <label id="number-label">Age: <input placeholder="Select your age please..." required type="number" pattern="/[0-9]+/" id="number" min="0" max="120"></label>    
+        </fieldset>
+        <fieldset>
+            <select id="dropdown" required>
+                <option >1</option>
+                <option >2</option>
+                <option >3</option>
+                <option >4</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <p>Will you be a front-end developer?</p>
+            <label for="">Yes!<input value="yes" type="radio" name="developer" id=""></label>
+            <label for="">Hell yeah!<input value="hell-yeah" type="radio" name="developer" id=""></label>
+            <label for="">For sure!<input value="for-sure" type="radio" name="developer" id=""></label>
+        </fieldset>
+        <fieldset>
+            <p>What is your goal?</p>
+
+            <label>Get a job. <input value="job" type="checkbox" name="" id=""></label>
+            <label>Freelance. <input value="freelance" type="checkbox" name="" id=""></label>
+            <label>Turn your life 180 <input type="checkbox" value="turn-180" name="" id=""></label>
+    
+            <label>Please tell me your story: <textarea name="" id="" cols="30" rows="10"></textarea></label>
+    
+        </fieldset>
+        <input id="submit" type="submit">
+
+    </form>
+</body>
+</html>
