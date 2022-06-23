@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 2em auto;
+}
+
+#title{
+  text-align: center;
+}
+
+#img-div {
+  text-align: center;
+}
+
+#image{
+  display: block;
+  max-width: 100%;
+  margin: 50px auto;
+}
+
+
+#tribute-info{
+  text-align: center;
+
+}
+
+ul {
+    display: block;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+li {
+  text-align: center;
+
+}
+
+.bold {
+  font-weight: bold;
+}
